@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+@theme inline {
+/* Brand palette: dark luxury salon, warm near-black, ivory, champagne pearl */
+  --color-ink: #16110e;
+  --color-ink-soft: #211a15;
+  --color-ivory: #f2ede3;
+  --color-paper: #faf7f0;
+  --color-sand: #e7dfd0;
+  --color-smoke: #a89e93;
+  --color-taupe: #6e6155;
+  --color-champagne: #c9a36a;
+  --color-champagne-deep: #8a6c39;
+  --color-whatsapp: #25d366;
+
+  --font-display: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-jost), system-ui, sans-serif;
+
+  --shadow-soft: 0 1px 2px rgb(22 17 14 / 0.05), 0 10px 28px rgb(22 17 14 / 0.08);
+  --shadow-lift: 0 2px 4px rgb(22 17 14 / 0.07), 0 18px 44px rgb(22 17 14 / 0.16);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background-color: var(--color-ink);
+  color: var(--color-ivory);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--color-champagne);
+  color: var(--color-ink);
+}
+
+.themed-scrollbar {
+  scrollbar-color: var(--color-champagne) rgb(242 237 227 / 0.1);
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+}
+
+.themed-scrollbar::-webkit-scrollbar {
+  width: 0.55rem;
+  height: 0.55rem;
+}
+
+.themed-scrollbar::-webkit-scrollbar-track {
+  border-radius: 999px;
+  background: rgb(242 237 227 / 0.1);
+}
+
+.themed-scrollbar::-webkit-scrollbar-thumb {
+  border: 2px solid var(--color-ink-soft);
+  border-radius: 999px;
+  background: var(--color-champagne);
+}
+
+.themed-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ivory);
+}
+
+/* Anchor offset below the sticky header */
+section[id] {
+  scroll-margin-top: 4.5rem;
+}
+
+/* Dotted leaders for the price menu, classic salon-card style */
+.price-leader {
+  display: none;
+  flex: 1;
+  margin-inline: 0.75rem;
+  border-bottom: 2px dotted var(--color-sand);
+  transform: translateY(-0.3em);
+}
+
+@media (min-width: 640px) {
+  .price-leader {
+    display: block;
+  }
+}
+
+/* Hero ornaments: rotating stamp + scroll cue, both motion-safe */
+@keyframes hero-stamp-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hero-scroll-dot {
+  0% {
+    transform: translateY(-0.2rem);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(2.5rem);
+    opacity: 0;
+  }
+}
+
+.hero-stamp-rotor {
+  animation: hero-stamp-spin 36s linear infinite;
+}
+
+.hero-scroll-dot {
+  animation: hero-scroll-dot 2.6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-stamp-rotor {
+    animation: none;
+  }
+
+  .hero-scroll-dot {
+    display: none;
+  }
+}
+
+/* Subtle photographic grain for atmosphere on dark surfaces */
+.grain {
+  position: relative;
+  isolation: isolate;
+}
+
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.45;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E");
+}

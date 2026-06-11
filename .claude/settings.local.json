@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Joey/Documents/JDJFreelance/Kapsalon La Perla/**)",
+      "Bash(npm --version)"
+    ]
+  }
+}
