@@ -89,46 +89,9 @@ section[id] {
   }
 }
 
-/* Hero ornaments: rotating stamp + scroll cue, both motion-safe */
-@keyframes hero-stamp-spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes hero-scroll-dot {
-  0% {
-    transform: translateY(-0.2rem);
-    opacity: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  70% {
-    opacity: 1;
-  }
-  100% {
-    transform: translateY(2.5rem);
-    opacity: 0;
-  }
-}
-
-.hero-stamp-rotor {
-  animation: hero-stamp-spin 36s linear infinite;
-}
-
-.hero-scroll-dot {
-  animation: hero-scroll-dot 2.6s ease-in-out infinite;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hero-stamp-rotor {
-    animation: none;
-  }
-
-  .hero-scroll-dot {
-    display: none;
-  }
+/* Hero ornaments: static stamp + motion-safe scroll cue */
+.hero-stamp-mark {
+  transform: rotate(0deg);
 }
 
 /* Subtle photographic grain for atmosphere on dark surfaces */

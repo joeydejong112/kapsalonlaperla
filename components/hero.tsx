@@ -29,7 +29,7 @@ function Stars({ label }: { label: string }) {
   );
 }
 
-/** Slowly rotating circular-text stamp, pinned to the arch photo. */
+/** Static circular-text stamp, pinned to the arch photo. */
 function RotatingStamp() {
   return (
     <div
@@ -38,7 +38,7 @@ function RotatingStamp() {
     >
       <svg
         viewBox="0 0 100 100"
-        className="hero-stamp-rotor absolute inset-0 h-full w-full"
+        className="hero-stamp-mark absolute inset-0 h-full w-full"
       >
         <defs>
           <path
@@ -272,15 +272,6 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Scroll cue: pearl dot travelling down a hairline */}
-      <div
-        aria-hidden="true"
-        className="absolute bottom-5 left-1/2 z-[2] hidden -translate-x-1/2 sm:block"
-      >
-        <div className="relative h-12 w-px bg-gradient-to-b from-ivory/0 via-ivory/25 to-ivory/0">
-          <span className="hero-scroll-dot absolute -left-[2.5px] top-0 h-1.5 w-1.5 rounded-full bg-champagne" />
-        </div>
-      </div>
     </section>
   );
 }
