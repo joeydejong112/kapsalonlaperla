@@ -145,7 +145,7 @@ export function Hero() {
   return (
     <section
       id="top"
-      className="relative flex min-h-[78svh] items-center overflow-hidden bg-ink sm:min-h-[88svh] lg:h-screen lg:min-h-screen"
+      className="relative flex min-h-svh items-center overflow-hidden bg-ink lg:h-screen lg:min-h-screen"
     >
       {/* Atmosphere: warm-graded salon photo under glows, pearl rings and grain */}
       <div className="absolute inset-0">
