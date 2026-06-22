@@ -7,15 +7,20 @@
     "setup-dev": "npm install && next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "remotion": "remotion studio remotion/index.ts",
+    "render": "remotion render remotion/index.ts"
   },
   "dependencies": {
+    "@remotion/cli": "^4.0.482",
     "motion": "^12.0.0",
     "next": "^15.5.0",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "remotion": "^4.0.482"
   },
   "devDependencies": {
+    "@remotion/tailwind-v4": "^4.0.482",
     "@tailwindcss/postcss": "^4.1.0",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",

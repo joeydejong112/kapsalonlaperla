@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ink: #16110e;
+  --color-ivory: #f2ede3;
+  --color-champagne: #c9a36a;
+}
