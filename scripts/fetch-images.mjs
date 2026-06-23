@@ -1,5 +1,5 @@
 /**
- * One-shot scraper: downloads all photos from the current kapsalonlaperla.nl
+ * One-shot scraper: downloads placeholder photos from a demo source URL.
  * site into public/images/ and writes lib/salon-images.json as a manifest.
  *
  * Usage: node scripts/fetch-images.mjs
@@ -7,7 +7,7 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
-const BASE_URL = "https://www.kapsalonlaperla.nl/";
+const BASE_URL = "https://example.com/";
 const OUT_DIR = path.join(process.cwd(), "public", "images");
 const MANIFEST_PATH = path.join(process.cwd(), "lib", "salon-images.json");
 const MAX_PAGES = 12;

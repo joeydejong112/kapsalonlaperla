@@ -5,6 +5,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { useLanguage } from "@/lib/language-context";
 import type { Lang } from "@/lib/prices";
 import { scrollToSection } from "@/lib/scroll-to-section";
+import { BUSINESS } from "@/lib/site";
 
 const NAV_LINKS = [
   { sectionId: "over-ons", key: "about" },
@@ -65,10 +66,10 @@ export function Header() {
           className="flex min-h-11 min-w-0 flex-col justify-center overflow-hidden leading-none text-left"
         >
           <span className="truncate font-display text-base font-semibold uppercase tracking-[0.28em] text-ivory sm:text-lg sm:tracking-[0.35em]">
-            La&nbsp;Perla
+            {BUSINESS.name}
           </span>
           <span className="mt-1 truncate text-[0.52rem] font-medium uppercase tracking-[0.2em] text-champagne sm:text-[0.55rem] sm:tracking-[0.3em]">
-            Kapsalon · Utrecht
+            {BUSINESS.mall} · {BUSINESS.city}
           </span>
         </button>
 

@@ -29,10 +29,10 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-[1.3fr_0.8fr_1fr_1fr]">
           <div>
             <p className="font-display text-lg font-semibold uppercase tracking-[0.35em]">
-              La&nbsp;Perla
+              {BUSINESS.name}
             </p>
             <p className="mt-1 text-[0.55rem] font-medium uppercase tracking-[0.3em] text-champagne">
-              Kapsalon · Utrecht
+              {BUSINESS.mall} · {BUSINESS.city}
             </p>
             <p className="mt-5 max-w-sm leading-relaxed text-smoke">
               {c.footer.blurb}

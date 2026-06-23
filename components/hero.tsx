@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion, useReducedMotion, type Transition } from "motion/react";
 import { useLanguage } from "@/lib/language-context";
 import { scrollToSection } from "@/lib/scroll-to-section";
-import { whatsappUrl } from "@/lib/site";
+import { BRAND_STAMP, whatsappUrl } from "@/lib/site";
 import {
   ClockIcon,
   GoogleIcon,
@@ -17,7 +17,7 @@ import { SalonPhoto } from "./salon-photo";
 const EASE: Transition["ease"] = [0.25, 0.4, 0.25, 1];
 
 /* Proper nouns only, so the stamp reads correctly in both languages */
-const STAMP_TEXT = "KAPSALON LA PERLA • WINKELCENTRUM NOVA • UTRECHT • ";
+const STAMP_TEXT = BRAND_STAMP;
 
 function Stars({ label }: { label: string }) {
   return (

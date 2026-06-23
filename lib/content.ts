@@ -24,8 +24,8 @@ export const REVIEWS: Review[] = [
   },
   {
     quote: {
-      nl: "Valentina is een begrip in het vak. Knipt altijd goed en leuke sfeer.",
-      en: "Valentina is a household name in the trade. Always a great cut and a lovely atmosphere.",
+      nl: "Altijd vriendelijk geholpen. Knipt precies wat ik wil en de sfeer is top.",
+      en: "Always friendly service. Exactly the cut I wanted, and a great atmosphere.",
     },
     name: "Edward",
   },
@@ -66,25 +66,25 @@ export const COPY = {
       menuClose: "Menu sluiten",
     },
     hero: {
-      kicker: "Kapsalon · Winkelcentrum NOVA, Utrecht",
+      kicker: "Hair salon · Demo Winkelcentrum, Demo Stad",
       titleStart: "Jouw",
       titleAccent: "vertrouwde",
-      titleEnd: "kapper in Utrecht",
+      titleEnd: "kapper in Demo Stad",
       subtitle:
         "Knippen, kleuren en beauty voor het hele gezin. Vakwerk zonder poespas, voor een eerlijke prijs.",
       ctaPrimary: "Afspraak boeken",
       ctaSecondary: "App via WhatsApp",
       imageAlt:
-        "Interieur van Kapsalon La Perla in Utrecht. Hier komt een eigen salonfoto",
+        "Interieur van Demo Salon. Hier komt een eigen salonfoto",
       resultAlt:
-        "Glanzend gestyled haar na een behandeling bij Kapsalon La Perla",
+        "Glanzend gestyled haar na een behandeling bij Demo Salon",
       ratingAria: "5 van 5 sterren",
     },
     about: {
       kicker: "Over ons",
       title: "Vakwerk met een persoonlijke touch",
       paragraphs: [
-        "La Perla zit al jaren in Winkelcentrum NOVA. We knippen, kleuren en verzorgen haar en beauty voor klanten uit de buurt en daarbuiten.",
+        "Demo Salon zit al jaren in Demo Winkelcentrum. We knippen, kleuren en verzorgen haar en beauty voor klanten uit de buurt en daarbuiten.",
         "Iedereen is welkom: dames, heren en kinderen, buurtbewoners en internationale klanten. We helpen je graag, in het Nederlands of in het Engels.",
       ],
       bullets: [
@@ -103,7 +103,7 @@ export const COPY = {
       ],
       cta: "Plan je bezoek",
       imageAltMain:
-        "Sfeerfoto van het interieur van Kapsalon La Perla. Eigen foto volgt",
+        "Sfeerfoto van het interieur van Demo Salon. Eigen foto volgt",
       imageAltSecond:
         "Detailfoto van een knipbehandeling. Eigen foto volgt",
     },
@@ -191,7 +191,7 @@ export const COPY = {
       phoneLabel: "Telefoon (optioneel)",
       phonePlaceholder: "06 - 12 34 56 78",
       stylistLabel: "Voorkeur kapper",
-      stylistOptions: ["Geen voorkeur", "Valentina", "Ander teamlid"],
+      stylistOptions: ["Geen voorkeur", "Alex", "Ander teamlid"],
       noteLabel: "Opmerking (optioneel)",
       notePlaceholder: "Bijv. lang haar, kleuradvies…",
       summaryTitle: "Jouw afspraak",
@@ -205,7 +205,7 @@ export const COPY = {
         "Je bericht staat klaar in WhatsApp. Verstuur het. Wij bevestigen je afspraak zo snel mogelijk.",
       again: "Nieuwe afspraak plannen",
       waLabels: {
-        intro: "Hoi La Perla! Ik wil graag een afspraak maken.",
+        intro: "Hoi! Ik wil graag een afspraak maken.",
         treatment: "Behandeling",
         date: "Datum",
         time: "Tijd",
@@ -217,7 +217,7 @@ export const COPY = {
     reviews: {
       kicker: "Reviews",
       title: "Waarom klanten blijven terugkomen",
-      subtitle: "Echte woorden van echte klanten uit Utrecht en omstreken.",
+      subtitle: "Echte woorden van echte klanten uit Demo Stad en omstreken.",
       googleLabel: "Google-reviews",
     },
     faq: {
@@ -235,7 +235,7 @@ export const COPY = {
         {
           question: "Hoe maak ik het snelst een afspraak?",
           answer:
-            "Via WhatsApp (06 - 41 35 57 17) of via 'Afspraak boeken' hierboven. Je krijgt snel een bevestiging terug.",
+            "Via WhatsApp (06 - 14 37 44 91) of via 'Afspraak boeken' hierboven. Je krijgt snel een bevestiging terug.",
         },
         {
           question: "Wat als ik toch verhinderd ben?",
@@ -256,7 +256,7 @@ export const COPY = {
     },
     location: {
       kicker: "Locatie & openingstijden",
-      title: "Je vindt ons in Winkelcentrum NOVA",
+      title: "Je vindt ons in Demo Winkelcentrum",
       addressTitle: "Adres",
       hoursTitle: "Openingstijden",
       hours: [
@@ -270,11 +270,11 @@ export const COPY = {
       travelText:
         "Parkeren kan bij het winkelcentrum en de bushalte ligt op loopafstand.",
       mapsCta: "Route via Google Maps",
-      mapTitle: "Kaart met de locatie van Kapsalon La Perla in Utrecht",
+      mapTitle: "Kaart met de locatie van Demo Salon in Demo Stad",
     },
     footer: {
       blurb:
-        "Kapsalon voor dames, heren en kinderen in Utrecht. Eerlijke prijzen, vakwerk en altijd tijd voor een praatje.",
+        "Hair salon voor dames, heren en kinderen in Demo Stad. Eerlijke prijzen, vakwerk en altijd tijd voor een praatje.",
       quickTitle: "Snel naar",
       contactTitle: "Contact",
       hoursTitle: "Openingstijden",
@@ -301,25 +301,25 @@ export const COPY = {
       menuClose: "Close menu",
     },
     hero: {
-      kicker: "Hair salon · NOVA Shopping Centre, Utrecht",
+      kicker: "Hair salon · Demo Shopping Centre, Demo City",
       titleStart: "Your",
       titleAccent: "trusted",
-      titleEnd: "hairdresser in Utrecht",
+      titleEnd: "hairdresser in Demo City",
       subtitle:
         "Cuts, colour and beauty for the whole family. Honest craftsmanship at a fair price.",
       ctaPrimary: "Book appointment",
       ctaSecondary: "Message on WhatsApp",
       imageAlt:
-        "Interior of Kapsalon La Perla in Utrecht. Salon photo placeholder",
+        "Interior of Demo Salon. Salon photo placeholder",
       resultAlt:
-        "Shiny styled hair after a treatment at Kapsalon La Perla",
+        "Shiny styled hair after a treatment at Demo Salon",
       ratingAria: "5 out of 5 stars",
     },
     about: {
       kicker: "About us",
       title: "Craftsmanship with a personal touch",
       paragraphs: [
-        "La Perla has been in NOVA Shopping Centre for years. We cut, colour and offer hair and beauty treatments for local and international clients.",
+        "Demo Salon has been in Demo Shopping Centre for years. We cut, colour and offer hair and beauty treatments for local and international clients.",
         "Everyone is welcome: women, men and kids, locals and international clients. We're happy to help you in Dutch or English.",
       ],
       bullets: [
@@ -338,7 +338,7 @@ export const COPY = {
       ],
       cta: "Plan your visit",
       imageAltMain:
-        "Interior photo of Kapsalon La Perla. Own photo to follow",
+        "Interior photo of Demo Salon. Own photo to follow",
       imageAltSecond: "Detail photo of a haircut. Own photo to follow",
     },
     services: {
@@ -423,7 +423,7 @@ export const COPY = {
       phoneLabel: "Phone (optional)",
       phonePlaceholder: "06 - 12 34 56 78",
       stylistLabel: "Stylist preference",
-      stylistOptions: ["No preference", "Valentina", "Another stylist"],
+      stylistOptions: ["No preference", "Alex", "Another stylist"],
       noteLabel: "Note (optional)",
       notePlaceholder: "E.g. long hair, colour advice…",
       summaryTitle: "Your appointment",
@@ -437,7 +437,7 @@ export const COPY = {
         "Your message is ready in WhatsApp. Send it. We'll confirm your appointment as soon as possible.",
       again: "Plan another appointment",
       waLabels: {
-        intro: "Hi La Perla! I would like to book an appointment.",
+        intro: "Hi! I would like to book an appointment.",
         treatment: "Treatment",
         date: "Date",
         time: "Time",
@@ -449,7 +449,7 @@ export const COPY = {
     reviews: {
       kicker: "Reviews",
       title: "Why clients keep coming back",
-      subtitle: "Real words from real clients in and around Utrecht.",
+      subtitle: "Real words from real clients in and around Demo City.",
       googleLabel: "Google reviews",
     },
     faq: {
@@ -467,7 +467,7 @@ export const COPY = {
         {
           question: "What's the fastest way to book?",
           answer:
-            "Via WhatsApp (06 - 41 35 57 17) or the 'Book appointment' button above. You'll get a quick confirmation.",
+            "Via WhatsApp (06 - 14 37 44 91) or the 'Book appointment' button above. You'll get a quick confirmation.",
         },
         {
           question: "What if I can't make it?",
@@ -488,7 +488,7 @@ export const COPY = {
     },
     location: {
       kicker: "Location & opening hours",
-      title: "Find us in NOVA Shopping Centre",
+      title: "Find us in Demo Shopping Centre",
       addressTitle: "Address",
       hoursTitle: "Opening hours",
       hours: [
@@ -501,11 +501,11 @@ export const COPY = {
       travelText:
         "Parking is available at the shopping centre and the bus stop is a short walk away.",
       mapsCta: "Directions via Google Maps",
-      mapTitle: "Map showing the location of Kapsalon La Perla in Utrecht",
+      mapTitle: "Map showing the location of Demo Salon in Demo City",
     },
     footer: {
       blurb:
-        "Hair salon for women, men and kids in Utrecht. Fair prices, craftsmanship and always time for a chat.",
+        "Hair salon for women, men and kids in Demo City. Fair prices, craftsmanship and always time for a chat.",
       quickTitle: "Quick links",
       contactTitle: "Contact",
       hoursTitle: "Opening hours",

@@ -19,16 +19,15 @@ const jost = Jost({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Kapsalon La Perla Utrecht | Knippen, kleuren & beauty",
+  title: "Demo Salon | Knippen, kleuren & beauty",
   description:
-    "Kapsalon La Perla in Winkelcentrum NOVA, Utrecht. Knippen voor dames, heren en kinderen, kleuren en beautybehandelingen voor een eerlijke prijs. Maak eenvoudig een afspraak via WhatsApp.",
+    "Demo Salon in Demo Winkelcentrum, Demo Stad. Knippen voor dames, heren en kinderen, kleuren en beautybehandelingen voor een eerlijke prijs. Maak eenvoudig een afspraak via WhatsApp.",
   keywords: [
-    "kapper Utrecht",
-    "kapsalon Utrecht",
-    "kapsalon Winkelcentrum NOVA",
-    "knippen dames heren kinderen Utrecht",
-    "haar kleuren Utrecht",
-    "wenkbrauwen threading Utrecht",
+    "kapper Demo Stad",
+    "hair salon demo",
+    "knippen dames heren kinderen",
+    "haar kleuren",
+    "wenkbrauwen threading",
   ],
   alternates: { canonical: "/" },
   openGraph: {
@@ -36,9 +35,9 @@ export const metadata: Metadata = {
     locale: "nl_NL",
     url: SITE_URL,
     siteName: BUSINESS.name,
-    title: "Kapsalon La Perla Utrecht | Knippen, kleuren & beauty",
+    title: "Demo Salon | Knippen, kleuren & beauty",
     description:
-      "Jouw vertrouwde kapper in Winkelcentrum NOVA, Utrecht. Voor het hele gezin, met eerlijke prijzen. Afspraak maken gaat eenvoudig via WhatsApp.",
+      "Jouw vertrouwde kapper in Demo Winkelcentrum, Demo Stad. Voor het hele gezin, met eerlijke prijzen. Afspraak maken gaat eenvoudig via WhatsApp.",
   },
   robots: { index: true, follow: true },
 };
@@ -59,9 +58,9 @@ const jsonLd = {
   },
   geo: {
     "@type": "GeoCoordinates",
-    // TODO: verify exact coordinates with the owner / Google Maps
-    latitude: 52.0734,
-    longitude: 5.0937,
+    // Placeholder coordinates for demo location
+    latitude: 52.3676,
+    longitude: 4.9041,
   },
   openingHoursSpecification: [
     {

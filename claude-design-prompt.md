@@ -1,9 +1,9 @@
 # Claude design prompt
 
-You are improving an existing Next.js 15 demo website for Kapsalon La Perla, a real hair salon in Utrecht.
+You are improving an existing Next.js 15 demo website for a fictional hair salon (Demo Salon).
 
 Project path:
-`C:\Users\Joey\Documents\JDJFreelance\Kapsalon La Perla`
+`C:\Users\Joey\Documents\JDJFreelance\kapsalonlaperla`
 
 Stack:
 - Next.js 15 app router

@@ -1,142 +1,142 @@
 [
     {
-        "file":  "/images/00-hero-sharp.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/background.jpg",
-        "bytes":  138088
+        "file": "/images/00-hero-sharp.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 138088
     },
     {
-        "file":  "/images/hd/27-1137468a-slider-clients-27-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/e7e8e628-86a7-4a1f-b650-dd55b285dbb0/1137468a.slider-clients-27.jpg",
-        "bytes":  214939
+        "file": "/images/hd/27-1137468a-slider-clients-27-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 214939
     },
     {
-        "file":  "/images/01-background.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/background.jpg",
-        "bytes":  85606
+        "file": "/images/01-background.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 85606
     },
     {
-        "file":  "/images/hd/21-4f756167-slider-clients-20-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/78790613-27ad-4b26-88fb-77ed52a141dd/4f756167.slider-clients-20.jpg",
-        "bytes":  232492
+        "file": "/images/hd/21-4f756167-slider-clients-20-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 232492
     },
     {
-        "file":  "/images/hd/11-07b2722b-slider-clients-10-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/298e9175-0fbf-4179-aeff-dbf0b5966dd4/07b2722b.slider-clients-10.jpg",
-        "bytes":  200924
+        "file": "/images/hd/11-07b2722b-slider-clients-10-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 200924
     },
     {
-        "file":  "/images/service-kinderen.png",
-        "sourceUrl":  "C:/Users/Joey/AppData/Local/Temp/codex-clipboard-157f11cb-2a46-47e5-9127-1e0c504cb7e1.png",
-        "bytes":  935963
+        "file": "/images/service-kinderen.png",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 935963
     },
     {
-        "file":  "/images/hd/06-74c8e190-slider-clients-5-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/f30179e0-0dfe-4f89-a9dd-f3d6a9bd7586/74c8e190.slider-clients-5.jpg",
-        "bytes":  234575
+        "file": "/images/hd/06-74c8e190-slider-clients-5-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 234575
     },
     {
-        "file":  "/images/service-beauty-gezicht.jpg",
-        "sourceUrl":  "C:/Users/Joey/Downloads/487878125_1204931661636790_312256643828201348_n.jpg",
-        "bytes":  84218
+        "file": "/images/service-beauty-gezicht.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 84218
     },
     {
-        "file":  "/images/service-verzorging-vormgeving.jpg",
-        "sourceUrl":  "C:/Users/Joey/Downloads/496956366_1240756654720957_6690056092104000546_n.jpg",
-        "bytes":  464977
+        "file": "/images/service-verzorging-vormgeving.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 464977
     },
     {
-        "file":  "/images/hd/13-83f748dd-slider-clients-12-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/7b6e49a8-6c3a-4253-aa82-9596f185915f/83f748dd.slider-clients-12.jpg",
-        "bytes":  240542
+        "file": "/images/hd/13-83f748dd-slider-clients-12-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 240542
     },
     {
-        "file":  "/images/hd/02-534fd000-slider-clients-1-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/fbfb80e0-85d0-4459-8ecf-ce1a5c2d4493/534fd000.slider-clients-1.jpg",
-        "bytes":  177505
+        "file": "/images/hd/02-534fd000-slider-clients-1-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 177505
     },
     {
-        "file":  "/images/hd/03-192a0541-slider-clients-2-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/4ebc0596-ceea-4150-a7bd-e4bd06da05e4/192a0541.slider-clients-2.jpg",
-        "bytes":  191454
+        "file": "/images/hd/03-192a0541-slider-clients-2-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 191454
     },
     {
-        "file":  "/images/hd/04-693161d4-slider-clients-3-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/05ee7fe2-1fb7-4eb9-9504-633198b937b0/693161d4.slider-clients-3.jpg",
-        "bytes":  205010
+        "file": "/images/hd/04-693161d4-slider-clients-3-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 205010
     },
     {
-        "file":  "/images/hd/05-0a112e14-slider-clients-4-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/c9fdbfb6-940f-4afa-a42e-edf9f19954b3/0a112e14.slider-clients-4.jpg",
-        "bytes":  187504
+        "file": "/images/hd/05-0a112e14-slider-clients-4-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 187504
     },
     {
-        "file":  "/images/hd/07-f93f819e-slider-clients-6-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/1e8c16b0-a5f5-4630-823f-a07c5ab2cd64/f93f819e.slider-clients-6.jpg",
-        "bytes":  240335
+        "file": "/images/hd/07-f93f819e-slider-clients-6-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 240335
     },
     {
-        "file":  "/images/hd/08-57653a0a-slider-clients-7-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/49967f25-4a7a-4504-8545-2006bee1ec8b/57653a0a.slider-clients-7.jpg",
-        "bytes":  194410
+        "file": "/images/hd/08-57653a0a-slider-clients-7-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 194410
     },
     {
-        "file":  "/images/hd/09-e3455ae1-slider-clients-8-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/af95d58e-ca63-46e8-a139-733a3617f046/e3455ae1.slider-clients-8.jpg",
-        "bytes":  226234
+        "file": "/images/hd/09-e3455ae1-slider-clients-8-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 226234
     },
     {
-        "file":  "/images/hd/10-46ed0569-slider-clients-9-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/d06c0475-6520-4c69-a55a-49beef11c7f4/46ed0569.slider-clients-9.jpg",
-        "bytes":  183201
+        "file": "/images/hd/10-46ed0569-slider-clients-9-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 183201
     },
     {
-        "file":  "/images/hd/15-f561cf39-slider-clients-14-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/c5232697-0eb4-4adc-8265-623837c68d16/f561cf39.slider-clients-14.jpg",
-        "bytes":  200513
+        "file": "/images/hd/15-f561cf39-slider-clients-14-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 200513
     },
     {
-        "file":  "/images/hd/16-99eeddd3-slider-clients-15-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/498a5513-e961-49e5-9df5-b087fcabeb1c/99eeddd3.slider-clients-15.jpg",
-        "bytes":  217022
+        "file": "/images/hd/16-99eeddd3-slider-clients-15-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 217022
     },
     {
-        "file":  "/images/hd/17-2f9708da-slider-clients-16-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/93700562-ccdb-46c6-a416-cfc9b2b96f7b/2f9708da.slider-clients-16.jpg",
-        "bytes":  225187
+        "file": "/images/hd/17-2f9708da-slider-clients-16-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 225187
     },
     {
-        "file":  "/images/hd/18-4e2b3f57-slider-clients-17-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/9a7594a5-024c-4961-bd6e-5e4a8c93fdf4/4e2b3f57.slider-clients-17.jpg",
-        "bytes":  199012
+        "file": "/images/hd/18-4e2b3f57-slider-clients-17-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 199012
     },
     {
-        "file":  "/images/hd/19-5230a537-slider-clients-18-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/5e9b8f09-9f83-45fd-b091-6a212ec59a81/5230a537.slider-clients-18.jpg",
-        "bytes":  194828
+        "file": "/images/hd/19-5230a537-slider-clients-18-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 194828
     },
     {
-        "file":  "/images/hd/20-5e06d458-slider-clients-19-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/21da0253-fabf-457a-b933-bc74bd715167/5e06d458.slider-clients-19.jpg",
-        "bytes":  217389
+        "file": "/images/hd/20-5e06d458-slider-clients-19-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 217389
     },
     {
-        "file":  "/images/hd/23-583526af-slider-clients-22-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/1ba7a979-337e-40d2-a235-2b753195e911/583526af.slider-clients-22.jpg",
-        "bytes":  233454
+        "file": "/images/hd/23-583526af-slider-clients-22-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 233454
     },
     {
-        "file":  "/images/hd/24-80a1c404-slider-clients-24-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/68019eac-0f8a-48dd-8273-f741e7e01599/80a1c404.slider-clients-24.jpg",
-        "bytes":  219120
+        "file": "/images/hd/24-80a1c404-slider-clients-24-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 219120
     },
     {
-        "file":  "/images/hd/25-b94b483c-slider-clients-25-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/9e115425-0a2d-416a-99f4-af5b91b91c64/b94b483c.slider-clients-25.jpg",
-        "bytes":  202558
+        "file": "/images/hd/25-b94b483c-slider-clients-25-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 202558
     },
     {
-        "file":  "/images/hd/26-77e320d3-slider-clients-26-hd.jpg",
-        "sourceUrl":  "https://www.kapsalonlaperla.nl/img/upload/slides/image/67e69ed7-3410-4f89-b8cb-5d5a00ae216f/77e320d3.slider-clients-26.jpg",
-        "bytes":  217631
+        "file": "/images/hd/26-77e320d3-slider-clients-26-hd.jpg",
+        "sourceUrl": "https://example.com/placeholder.jpg",
+        "bytes": 217631
     }
 ]

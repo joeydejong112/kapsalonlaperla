@@ -13,10 +13,10 @@ export const MyComposition: React.FC = () => {
         style={{ opacity }}
       >
         <p className="text-sm uppercase tracking-[0.35em] text-champagne">
-          Kapsalon
+          Demo
         </p>
         <h1 className="mt-4 text-6xl font-semibold tracking-tight">
-          La Perla
+          Salon
         </h1>
       </div>
     </AbsoluteFill>
